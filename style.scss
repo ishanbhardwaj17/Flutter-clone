@@ -1,0 +1,111 @@
+@font-face {
+    font-family: robo;
+    src: url(./fonts/robo.woff2);
+}
+
+@font-face {
+    font-family: sans;
+    src: url(./fonts/sans.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    position: static;
+
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+
+        .logo {
+            img {
+                width: 85%;
+                cursor: pointer;
+            }
+        }
+
+        .menu {
+            i {
+                font-weight: 600;
+            }
+        }
+
+        .links {
+            display: none;
+        }
+    }
+}
+
+
+
+
+@media (min-width:900px) {
+    nav {
+        .links-container {
+
+            .menu {
+                display: none;
+            }
+
+            .links {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 1.7rem;
+                padding-right: 1.4rem;
+                font-family: sans;
+                font-weight: 500;
+                color: #4a4a4a;
+
+
+                #get-started {
+                    padding: 0.7rem 2rem;
+                    border-radius: 50px;
+                    border: none;
+                    background-color: #0468d7;
+                    color: white;
+                    font-weight: 700;
+                }
+
+                button {
+                    padding: .65rem 1rem;
+                    border-radius: 50px;
+                    border: none;
+                    background-color: transparent;
+                    font-family: sans;
+                    font-weight: 700;
+                    color: #4a4a4a;
+                }
+
+                i {
+                    padding: 0.7rem;
+                    border-radius: 100%;
+                    font-weight: 800;
+                }
+
+                i:hover {
+                    background-color: #f0f0f0;
+                    cursor: pointer;
+                }
+
+                button:hover {
+                    background-color: #f0f0f0;
+                    cursor: pointer;
+                    color: #0468d7;
+                }
+            }
+        }
+    }
+}
