@@ -110,6 +110,61 @@ section.view1 {
     }
 }
 
+section.view2 {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        gap: 4rem;
+        // align-items: center;
+
+        h3 {
+            font-size: 1.5rem;
+            font-family: sans;
+        }
+
+        p {
+            font-size: 1.125rem;
+            font-family: robo;
+            color: #4a4a4a;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 2rem;
+
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                width: 80%;
+                // align-items: flex-start;
+            }
+
+            hr {
+                width: 100%;
+                border: none;
+                height: 4px;
+                background: #ebe9e9;
+                // margin-top: 1.5rem;
+            }
+        }
+
+
+    }
+}
+
 
 
 
@@ -171,35 +226,35 @@ section.view1 {
         }
     }
 
-    section.view1{
-        .container{
+    section.view1 {
+        .container {
             // flex-direction: row-reverse;
             padding: 0rem 4.5rem;
 
-            .image{
+            .image {
                 padding: 0;
                 flex-direction: row-reverse;
                 align-items: center;
                 justify-content: space-between;
 
-                img{
+                img {
                     width: 55%;
                 }
 
-                .text1{
-                    h1{
+                .text1 {
+                    h1 {
                         font-size: 4.5rem;
                         text-align: left;
                     }
                 }
             }
 
-            .text-container{
+            .text-container {
                 padding: 5rem 2rem;
                 padding-bottom: 6.5rem;
 
-                .text2{
-                    h2{
+                .text2 {
+                    h2 {
                         font-size: 2.4rem;
                     }
 
