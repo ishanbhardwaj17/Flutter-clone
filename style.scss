@@ -262,4 +262,17 @@ section.view2 {
             }
         }
     }
+
+    section.view2{
+        margin-bottom: 4rem;
+        .container{
+            flex-direction: row;
+            margin-top: 1rem;
+           
+
+            .box{
+                gap: 1rem;
+            }
+        }
+    }
 }

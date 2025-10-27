@@ -191,4 +191,14 @@ section.view2 .container .box hr {
   section.view1 .container .text-container .text2 h2 {
     font-size: 2.4rem;
   }
+  section.view2 {
+    margin-bottom: 4rem;
+  }
+  section.view2 .container {
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+  section.view2 .container .box {
+    gap: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
