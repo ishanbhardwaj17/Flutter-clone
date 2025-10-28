@@ -53,13 +53,14 @@ section.view1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 3rem;
+  background: linear-gradient(to top, #f5e5eb, #ecf4f7);
 }
 section.view1 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to top, #f5e5eb, #ecf4f7);
 }
 section.view1 .container .image {
   display: flex;
@@ -186,6 +187,62 @@ section.view3 .container button {
   font-weight: 600;
 }
 
+section.view4 {
+  background: linear-gradient(to left bottom, #ffffff, #f3f3c9);
+}
+section.view4 .container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 3rem;
+}
+section.view4 .container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+section.view4 .container h4 {
+  font-size: 1.125rem;
+  font-family: sans;
+  color: #4a4a4a;
+  margin-bottom: 1rem;
+}
+section.view4 .container h3 {
+  font-size: 2.875rem;
+  font-family: sans;
+  margin-bottom: 1.5rem;
+}
+section.view4 .container p {
+  font-size: 1.125rem;
+  font-family: robo;
+  margin-bottom: 2rem;
+  color: #4a4a4a;
+}
+section.view4 .container .btn {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+section.view4 .container .btn .link {
+  border: none;
+  width: 70%;
+  padding: 0rem;
+  color: black;
+  padding-left: 0rem;
+}
+section.view4 .container button {
+  font-size: 1rem;
+  border: none;
+  font-family: sans;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 50px;
+  width: 55%;
+  background-color: #0468d7;
+  cursor: pointer;
+  font-weight: 600;
+}
+
 @media (min-width: 900px) {
   nav .links-container .menu {
     display: none;
@@ -298,6 +355,47 @@ section.view3 .container button {
     width: 100%;
   }
   section.view3 .container .text .btn .link {
+    width: 80%;
+    font-size: 1rem;
+  }
+  section.view4 {
+    background: linear-gradient(to left bottom, #ffffff, #f3f3c9);
+    padding-bottom: 0rem;
+  }
+  section.view4 .container {
+    flex-direction: row;
+    align-items: center;
+    gap: 7rem;
+    padding: 1rem 2rem;
+  }
+  section.view4 .container img {
+    width: 40%;
+  }
+  section.view4 .container .text {
+    padding: 2.5rem;
+    width: 60%;
+  }
+  section.view4 .container .text h3 {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+  section.view4 .container .text h4 {
+    font-size: 1.25rem;
+  }
+  section.view4 .container .text p {
+    font-size: 1.25rem;
+  }
+  section.view4 .container .text button {
+    font-size: 1rem;
+    width: 50%;
+    text-align: center;
+    padding: 0.6rem 0.1rem;
+  }
+  section.view4 .container .text .btn {
+    flex-direction: row;
+    width: 100%;
+  }
+  section.view4 .container .text .btn .link {
     width: 80%;
     font-size: 1rem;
   }
