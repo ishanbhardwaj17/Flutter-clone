@@ -652,4 +652,35 @@ section.view7 button {
     width: 80%;
     font-size: 1rem;
   }
+  section.view7 .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+  }
+  section.view7 .container img {
+    width: 35%;
+    height: 60vh;
+  }
+  section.view7 .container h3 {
+    text-align: left;
+    font-size: 3.75rem;
+  }
+  section.view7 .container p {
+    font-size: 1.25rem;
+  }
+  section.view7 .container .text {
+    padding: 1rem;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60%;
+    text-align: left;
+  }
+  section.view7 .container .text .btn {
+    width: 40%;
+  }
 }/*# sourceMappingURL=style.css.map */

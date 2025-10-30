@@ -516,7 +516,7 @@ section.view7 {
             width: 65%;
         }
 
-        .docs{
+        .docs {
             border: none;
             background-color: transparent;
             width: 100%;
@@ -528,7 +528,7 @@ section.view7 {
         border: none;
         font-family: sans;
         color: white;
-        
+
         border-radius: 50px;
         width: 100%;
         // background-color: #0468d7;
@@ -857,5 +857,47 @@ section.view7 {
                 }
             }
         }
+    }
+
+    section.view7 {
+        .container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 50vh;
+            overflow: hidden;
+            position: relative;
+
+            img {
+                width: 35%;
+                height: 60vh;
+            }
+            h3{
+                text-align: left;
+                font-size: 3.75rem;
+            }
+            p{
+                font-size: 1.25rem;
+            }
+
+            .text {
+                
+                padding: 1rem;
+                position: absolute;
+                left: 5%;                
+                top: 50%;
+                transform: translateY(-50%);
+                width: 60%;
+                text-align: left;
+
+                .btn{
+                    width: 40%;
+                    
+                }
+            }
+
+        }
+
+
     }
 }
