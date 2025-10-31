@@ -419,6 +419,78 @@ section.view7 button {
   font-weight: 600;
 }
 
+section.view8 .container {
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+section.view8 .container .footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-bottom: 2rem;
+}
+section.view8 .container .footer-links .main {
+  font-family: sans;
+  font-weight: 800;
+  font-size: 1rem;
+  color: black;
+}
+section.view8 .container .footer-links p {
+  font-size: 1rem;
+  font-family: sans;
+  color: #4a4a4a;
+}
+section.view8 .container .footer-links .about,
+section.view8 .container .footer-links .learn,
+section.view8 .container .footer-links .platform {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+section.view8 .container .social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+section.view8 .container .social-media .icons {
+  display: flex;
+  gap: 1.5rem;
+}
+section.view8 .container .end {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  font-size: 0.875rem;
+  color: #4a4a4a;
+  text-align: center;
+  font-family: robo;
+  line-height: 1.4;
+  padding-bottom: 4rem;
+}
+section.view8 .container .end .end-line {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+section.view8 img {
+  width: 45%;
+}
+section.view8 i {
+  font-size: 1.3rem;
+  color: #4a4a4a;
+}
+section.view8 hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  width: 95%;
+  margin: 2rem auto;
+}
+
 @media (min-width: 900px) {
   nav .links-container .menu {
     display: none;
@@ -682,5 +754,45 @@ section.view7 button {
   }
   section.view7 .container .text .btn {
     width: 40%;
+  }
+  section.view8 {
+    background-color: #f8f9fa;
+  }
+  section.view8 .container img {
+    width: 10%;
+  }
+  section.view8 .container hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  section.view8 .container .div1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 3rem 1rem;
+  }
+  section.view8 .container .div1 .footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+  }
+  section.view8 .container .social-media {
+    align-items: flex-start;
+    text-align: left;
+  }
+  section.view8 .container .social-media .icons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-start;
+  }
+  section.view8 .container .end {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  section.view8 .container .end .text {
+    width: 70%;
+    text-align: left;
   }
 }/*# sourceMappingURL=style.css.map */
